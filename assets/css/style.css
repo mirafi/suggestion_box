@@ -1,0 +1,40 @@
+body{ background-color: #E7E7E7;}
+
+.navbar-custom{
+    background: white;
+    margin-bottom: 10px;
+    border-bottom: 4px solid #8BC34A;
+}
+.navbar-brand{
+    font-size: 2.5em;
+    margin-top:8px;
+}
+.nav>li{
+    margin:10px;
+}
+.nav>li>a{
+    text-transform: uppercase;
+    font-size: 1.2em;
+    background: #eee;
+    color: #337ab7;
+    padding:12px 15px;
+}
+.nav>li>a:hover{
+    color:#8bc34a;
+}
+
+.navbar-toggle, .navbar-toggle .icon-bar{
+    border: 1px solid #337ab7;
+}
+
+.main-content{
+    position: relative;
+}
+
+/*Some Spacing Classes*/
+.p-30{padding:30px;}
+
+.mlr-15{margin-left:15px;margin-rigth:15px;}
+.mb-15{margin-bottom: 15px;}
+.mt-40{margin-top:40px;}
+
