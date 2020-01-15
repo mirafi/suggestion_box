@@ -32,27 +32,36 @@
 
 		<div class="container-fluid expanding-child">		
 			<div class="row">
-				<div class="col-md-4 col-md-offset-4">
+				<div class="col-md-8 col-md-offset-2">
+					
+					<div class="page-header">
+						<h4>Create Suggestion</h4>
+					</div>
+
 					<div class="panel panel-default">
-						<div class="panel-heading">
-							<h4>Login Panel</h4>
-						</div>
 						<div class="panel-body p-30">
-							<form id="loginForm" method="post" action="">
+							<form id="createSuggestionForm" method="post" action="">
 								<div class="form-group">
-									<label for="username">Username</label>
-									<input name="username" type="text" class="form-control" id="username" placeholder="Enter user name" required>
+									<label for="exampleFormControlSelect1">Select Type</label>
+									<select class="form-control" id="exampleFormControlSelect1">
+										<option>1</option>
+										<option>2</option>
+										<option>3</option>
+										<option>4</option>
+										<option>5</option>
+									</select>
 								</div>
+
 								<div class="form-group">
-									<label for="password">Password</label>
-									<input name="password" type="password" class="form-control" id="password" placeholder="Enter password" required>
+									<label for="exampleFormControlTextarea1">Write Your Suggestion</label>
+									<textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Enter your suggestions"></textarea>
 								</div>
+
 								<div class="text-center mt-40">
-									<button type="submit" class="btn btn-primary mr-15 mb-15">Login</button>
-									<button type="button" class="btn btn-default mr-15 mb-15">Register</button>
+									<button type="submit" class="btn btn-primary mr-15 mb-15">Save</button>
+									<button type="reset" class="btn btn-default mr-15 mb-15">Clear</button>
 								</div>
 							</form>
-
 						</div>
 					</div>
 				</div>
