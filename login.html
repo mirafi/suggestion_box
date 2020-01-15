@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Suggession</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+	<div class="parent-container">
+		<nav class="navbar navbar-custom sticky-child">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#suggestion-menu">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="">SUGGESTION</a>
+				</div>
+				<div id="suggestion-menu" class="navbar-collapse collapse">
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href=""><button class="btn btn-small btn-warning">All Suggession</button></a></li>
+						<li><a href=""><button class="btn btn-small btn-warning">Create Suggession </button></a></li>
+						<li><a href=""><button class="btn btn-small btn-warning">Logout</button></a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+
+		<div class="container-fluid expanding-child">		
+			<div class="row">
+				<div class="col-md-4 col-md-offset-4">
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							<h4>Login Panel</h4>
+						</div>
+						<div class="panel-body p-30 bg-main">
+							<form id="loginForm" method="post" action="">
+								<div class="form-group">
+									<label for="username">Username</label>
+									<input name="username" type="text" class="form-control" id="username" placeholder="Enter user name" required>
+								</div>
+								<div class="form-group">
+									<label for="password">Password</label>
+									<input name="password" type="password" class="form-control" id="password" placeholder="Enter password" required>
+								</div>
+								<div class="text-center mt-40">
+									<button type="submit" class="btn btn-primary mr-15 mb-15">Login</button>
+									<button type="button" class="btn btn-default mr-15 mb-15">Register</button>
+								</div>
+							</form>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="footer sticky-child">
+			<div class="text-center">
+				<span>Design and Developed by KCSL</span>
+			</div>
+		</div>
+	</div>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/script.js"></script>
+
+</body>
+</html>
